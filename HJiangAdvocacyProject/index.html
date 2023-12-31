@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+  <!-- the content here will only show in the tab and in the metadata about the page -->
+
+</head>
+
+<body>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+
+  <!--- Headings --->
+  <img />
+  <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
+
+  <div class="header-container" id="myheader">
+    <title>Anti-Trans Legislation in the USA</title>
+
+    <div class="header-item">
+      <img id="header-img" src="img/Transgender_Pride_flag.png" />
+      <img id="header-img" src="img/usflag.png" />
+    </div>
+
+    <h1>Anti-Trans Legislation in the US</h1>
+    <h3>Tracking Proposed and Passed Anti-Trans Legislation in the US</h3>
+
+    <div class="header-item"> 
+      <button type="button" class="header-button">Learn More</button>
+      <button type="button" class="header-button">Find State</button>
+    </div>
+
+  </div>
+
+  <!-- Part 1: Navbar Starter Code -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="#myheader">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#states">States</a></li>
+      <li><a href="#petition">Sign Petition</a></li>
+      
+      <li ><button id="theme-button">Toggle Dark Mode</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+
+
+
+  <!--- About --->
+  <div id="about" class="active revealable"> 
+    <h2>About</h2>
+    <p>Recently, there has been a sharp rise in proposed legislation aimed specifically at the transgender community across almost all states in the US. This legislation can take the form of restricting transgender existence in public (ie. anything from the banning of drag shows, to the criminalization of transgender people using the bathroom of their true gender, to the broad banning of “cross-sex” dress and mannerisms in public), or increased restrictions on the process of transition (ie. anything from the banning of discussion of transgender topics in schools to the banning of medical transition-related procedures such as HRT and gender-affirming surgeries). Most of this sort of proposed legislation has been on the state level. While most of these proposed laws do not pass, the ones that do make life more difficult for transgender people living in said state.
+    </p>
+  </div>
+  
+
+
+  <!--- States --->
+  <div id="states" class="active revealable"> 
+    <h2>States</h2>
+  
+    <h3>California</h3>
+    <div class="legi-introduced">
+      CA AB1314:
+      <a href="https://legiscan.com/CA/text/AB1314/id/2838625">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+  
+    <h3>North Carolina</h3>
+  
+    <div class="legi-introduced">
+      NC H43:
+      <a href="https://legiscan.com/NC/text/H43/id/2683464">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+  
+    <div class="legi-passed">
+      NC H574:
+      <a href="https://legiscan.com/NC/text/H574/id/2837484">Read Bill Text</a>
+      <p></p>
+      Status: PASSED
+      <p></p>
+    </div>
+  
+    <div class="legi-introduced">
+      NC H673:
+      <a href="https://legiscan.com/NC/text/H673/id/2784841">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+  
+    <div class="legi-introduced">
+      NC H786:
+      <a href="https://legiscan.com/NC/text/H786/id/2785168">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+  
+    <div class="legi-passed">
+      NC 808:
+      <a href="https://legiscan.com/NC/text/H808/id/2837494">Read Bill Text</a>
+      <p></p>
+      Status: PASSED
+      <p></p>
+    </div>
+  
+    <div class="legi-passed">
+      NC S49:
+      <a href="https://legiscan.com/NC/text/S49/id/2837499">Read Bill Text</a>
+      <p></p>
+      Status: PASSED
+      <p></p>
+    </div>
+  
+    <div class="legi-introduced">
+      NC S560:
+      <a href="https://legiscan.com/NC/text/S560/id/2770823">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+  
+    <div class="legi-engrossed">
+      NC S631:
+      <a href="https://legiscan.com/NC/text/S631/id/2828923">Read Bill Text</a>
+      <p></p>
+      Status: ENGROSSED
+      <p></p>
+    </div>
+  
+    <div class="legi-engrossed">
+      NC 636:
+      <a href="https://legiscan.com/NC/text/S636/id/2799138">Read Bill Text</a>
+      <p></p>
+      Status: ENGROSSED
+      <p></p>
+    </div>
+  
+    <div class="legi-introduced">
+      NC 639:
+      <a href="https://legiscan.com/NC/text/S639/id/2773131">Read Bill Text</a>
+      <p></p>
+      Status: INTRODUCED
+      <p></p>
+    </div>
+      
+  </div>
+
+  <!--petition--> 
+  <div class="petition active revealable" id="petition">
+
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+
+
+        <div class="petition-para">
+          We wish for a future where the ideals of self-determination and bodily autonomy are properly protected and respected; we wish for a future where trans children can grow up safe and free. If you wish, sign this petition to show your support for a future free of transphobia. 
+        </div>
+
+        <div id = "signatures-section" class="signatures">
+          <p>🖊️ DJ from Brooklyn supports this.</p>
+          <p>🖊️ Amy from Queens supports this.</p>
+          <p>🖊️ Teresa from Harlem supports this.</p>
+        </div>
+
+      </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" placeholder="Name">
+      <label for="hometown">Hometown: </label>
+      <input type="text" id="hometown" name = "hometown" placeholder="Hometown">
+    </form>
+
+    <button id="sign-now-button">Sign Now</button>
+
+
+  </div>
+  <br>
+  
+
+  <img id="end-img" src="img/Transgender_Pride_flag.png" width=100%/>
+
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thanks for signing!</p>
+      </div>
+      <img id="thanks-img" src="img/cheer.png" width=30%>
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
